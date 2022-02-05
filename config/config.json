@@ -1,0 +1,8 @@
+{
+  "theme": {
+    "slug": "semplice-monospazio",
+    "name": "Semplice Monospazio",
+    "author": "Jacob Martella Web Development",
+    "PHPNamespace": "JM_Web_Development\\Semplice_Monospazio"
+  }
+}
