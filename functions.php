@@ -51,7 +51,7 @@ add_action( 'after_setup_theme', 'semplice_monospazio_setup' );
 add_action( 'wp_enqueue_scripts', 'semplice_monospazio_enqueue_style_sheet' );
 function semplice_monospazio_enqueue_style_sheet() {
 
-	wp_enqueue_style( 'semplice-monospazio', get_template_directory_uri() . '/assets/css/styles.min.css', array(), wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style( 'semplice-monospazio', get_template_directory_uri() . '/assets/css/global.min.css', array(), wp_get_theme()->get( 'Version' ) );
 
 }
 
@@ -59,7 +59,7 @@ function semplice_monospazio_enqueue_style_sheet() {
 add_action( 'wp_enqueue_scripts', 'semplice_monospazio_enqueue_fonts' );
 function semplice_monospazio_enqueue_fonts() {
 
-	wp_enqueue_style( 'jm-web-dev-fse-starter-theme-fonts', semplice_monospazio_fonts_url(), array(), null );
+	wp_enqueue_style( 'semplice-monospazio-theme-fonts', semplice_monospazio_fonts_url(), array(), null );
 
 }
 
@@ -73,10 +73,12 @@ function semplice_monospazio_fonts_url() {
 		return '';
 	}
 
-	$fonts = [];
+	$fonts = [
+		'family=Ubuntu+Mono:wght@400;700;',
+	];
 
 	// Make a single request for all Google Fonts.
-	return esc_url_raw( 'https://fonts.googleapis.com/css2?' . implode( '&', array_unique( $fonts ) ) . '&display=swap' );
+	return esc_url_raw( 'https://fonts.googleapis.com/css?' . implode( '&', array_unique( $fonts ) ) . '&display=swap' );
 }
 
 function semplice_monospazio_search_title() {

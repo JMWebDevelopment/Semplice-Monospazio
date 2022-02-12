@@ -10,6 +10,6 @@ return array(
 	'categories' => array( 'jm-web-dev-fse-starter-theme-search' ),
 	'blockTypes' => array( 'core/template-part/search' ),
 	'content'    => '<!-- wp:heading {"className":"is-style-jm-web-development-fse-starter-theme-text-shadow","fontSize":"x-large"} -->
-                    <h2 class="is-style-jm-web-development-fse-starter-theme-text-shadow has-x-large-font-size">' . jm_web_dev_fse_starter_theme_search_title() . '</h2>
+                    <h2 class="is-style-jm-web-development-fse-starter-theme-text-shadow has-x-large-font-size">' . semplice_monospazio_search_title() . '</h2>
                     <!-- /wp:heading -->',
 );

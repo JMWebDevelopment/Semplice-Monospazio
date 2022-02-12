@@ -1,0 +1,58 @@
+/* Objects
+--------------------------------------------- */
+
+embed,
+iframe,
+object,
+video {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+/* Inputs
+--------------------------------------------- */
+
+input,
+select,
+textarea,
+.wp-block-search .wp-block-search__input {
+	background-color: var(--wp--preset--color--white);
+	border: 1px solid var(--wp--preset--color--black);
+	border-radius: 0;
+	color: var(--wp--preset--color--black);
+	font-family: var(--wp--preset--font-family--ubuntu-monospace);
+	font-size: var(--wp--preset--font-size--regular);
+	font-weight: var(--wp--custom--font-weight--regular);
+	line-height: var(--wp--custom--line-height--body);
+	padding: 10px 20px;
+	width: 100%;
+}
+
+input:focus,
+textarea:focus {
+	background-color: var(--wp--preset--color--off-black);
+}
+
+input[type="checkbox"],
+input[type="image"],
+input[type="radio"] {
+	width: auto;
+}
+
+input[type="button"],
+input[type="email"],
+input[type="search"],
+input[type="submit"],
+input[type="text"],
+textarea {
+	-webkit-appearance: none;
+}
+
+::placeholder {
+	color: var(--wp--preset--color--black);
+	font-size: var(--wp--preset--font-size--regular);
+	opacity: 0.6;
+}

@@ -1,0 +1,44 @@
+/* Site Blocks
+---------------------------------------------------------------------------- */
+
+.wp-site-blocks {
+
+}
+
+/* Site Header
+---------------------------------------------------------------------------- */
+
+.site-header {
+
+	& .wp-block-column {
+		margin-bottom: 0;
+
+		& .no-margin {
+			margin-bottom: 0;
+		}
+	}
+
+	& .wp-block-image {
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+
+	.site-header {
+
+		& .wp-block-column {
+
+			& .no-margin {
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+/* Site Title
+--------------------------------------------- */
+
+.wp-block-site-title a {
+	text-decoration: none;
+}
