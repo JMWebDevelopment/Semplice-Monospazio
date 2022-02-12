@@ -10,19 +10,20 @@
 }
 
 .wp-block-table thead {
-	background-color: var(--wp--preset--color--off-black);
+	background-color: var(--wp--preset--color--off-white);
 }
 
 .wp-block-table thead th,
 .wp-block-table tfoot th,
 .wp-block-table tfoot td {
-	color: var(--wp--preset--color--white);
-	font-weight: var(--wp--custom--font-weight--semi-bold);
+	color: var(--wp--preset--color--black);
+	font-weight: var(--wp--custom--font-weight--bold);
 	font-family: var(--wp--preset--font-family--ubuntu-mono);
+	text-align: center;
 }
 
 .wp-block-table tfoot {
-	background-color: var(--wp--preset--color--black);
+	background-color: var(--wp--preset--color--off-white);
 }
 
 .wp-block-table thead td,
@@ -62,5 +63,5 @@
 }
 
 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
-	background-color: var(--wp--preset--color--off-white);
+	background-color: var(--wp--preset--color--white);
 }

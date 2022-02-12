@@ -41,7 +41,7 @@ ul {
 
 b,
 strong {
-	font-weight: var(--wp--custom--font-weight--semi-bold);
+	font-weight: var(--wp--custom--font-weight--bold);
 }
 
 blockquote {
@@ -52,6 +52,7 @@ blockquote {
 	margin-left: calc(25% - 25vw);
 	margin-right: calc(25% - 25vw);
 	max-width: 1000%;
+	width: auto;
 }
 
 .alignfull {
