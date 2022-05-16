@@ -11,6 +11,11 @@
 			"name": "footer",
 			"title": "Footer",
 			"area": "footer"
+		},
+		{
+			"name": "sidebar",
+			"title": "Sidebar",
+			"area": "sidebar"
 		}
 	],
 	"customTemplates": [
@@ -62,11 +67,6 @@
 					"name": "Secondary",
 					"slug": "secondary",
 					"color": "#0099ff"
-				},
-				{
-					"name": "Tertiary",
-					"slug": "tertiary",
-					"color": "#00cccc"
 				},
 				{
 					"name": "Off Black",
@@ -154,7 +154,7 @@
 			}
 		},
 		"layout": {
-			"contentSize": "780px",
+			"contentSize": "800px",
 			"wideSize": "1200px"
 		},
 		"spacing": {
