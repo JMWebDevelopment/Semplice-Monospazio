@@ -1,8 +1,0 @@
-/* Preformatted
---------------------------------------------- */
-
-.wp-block-preformatted {
-	overflow-wrap: normal;
-	overflow-x: scroll;
-	white-space: pre;
-}

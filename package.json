@@ -1,17 +1,17 @@
 {
-  "name": "semplice-monospazio",
+  "name": "jm-web-development-fse-starter-theme",
   "version": "0.0.1",
-  "description": "",
+  "description": "A starter theme for a WordPress full site editing or block theme. Also includes support for PostCSS and minifying JavaScript and images for your theme.",
   "author": "Jacob Martella Web Development",
   "license": "GPL-3.0-or-later",
   "main": "index.php",
-  "homepage": "https://github.com/JMWebDevelopment/Semplice-Monospazio#readme",
+  "homepage": "https://github.com/JMWebDevelopment/JM-Web-Development-FSE-Starter-Theme#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JMWebDevelopment/Semplice-Monospazio.git"
+    "url": "git+https://github.com/JMWebDevelopment/JM-Web-Development-FSE-Starter-Theme.git"
   },
   "bugs": {
-    "url": "https://github.com/JMWebDevelopment/Semplice-Monospazio/issues"
+    "url": "https://github.com/JMWebDevelopment/JM-Web-Development-FSE-Starter-Theme/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",

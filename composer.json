@@ -1,6 +1,6 @@
 {
-  "name": "jmwebdevelopment/semplice-monospazio",
-  "description": "",
+  "name": "jmwebdevelopment/jm-web-development-fse-starter-theme",
+  "description": "A starter theme for a WordPress full site editing or block theme. Also includes support for PostCSS and minifying JavaScript and images for your theme.",
   "type": "wordpress-theme",
   "license": "GPL-3.0-or-later",
   "require-dev": {

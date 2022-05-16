@@ -1,7 +1,0 @@
-/* Accessability
----------------------------------------------------------------------------- */
-
-:focus {
-	color: var(--wp--preset--color--black);
-	outline: none;
-}

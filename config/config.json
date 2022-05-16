@@ -3,6 +3,10 @@
     "slug": "semplice-monospazio",
     "name": "Semplice Monospazio",
     "author": "Jacob Martella Web Development",
-    "PHPNamespace": "JM_Web_Development\\Semplice_Monospazio"
+    "PHPNamespace": "JM_Web_Development\\Semplice_Monospazio",
+	"underscoreCase": "semplice_monospazio",
+	"constant": "SEMPLICE_MONOSPAZIO",
+	"camelCase": "SempliceMonospazio",
+	"camelCaseVar": "sempliceMonospazio"
   }
 }
