@@ -27,10 +27,6 @@
 	padding: 2px;
 }
 
-header .wp-block-navigation .wp-block-navigation__responsive-container ul {
-	justify-content: flex-end;
-}
-
 .wp-block-navigation .has-child :where(.wp-block-navigation__submenu-container) .wp-block-navigation-item__content {
 	padding: 0;
 }
