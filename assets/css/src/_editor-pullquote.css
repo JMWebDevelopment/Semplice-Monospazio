@@ -44,7 +44,7 @@
 }
 
 .wp-block-pullquote .wp-block-pullquote__citation {
-	color: var(--wp--preset--color--black);
+	color: var(--wp--preset--color--primary);
 	display: block;
 	font-size: var(--wp--preset--font-size--small);
 	font-style: inherit;
@@ -63,7 +63,7 @@
 .wp-block-quote.has-text-align-left,
 .wp-block-quote.has-text-align-right,
 .wp-block-quote.is-style-large {
-	border: 1px solid var(--wp--preset--color--black);
+	border: 1px solid var(--wp--preset--color--primary);
 	margin-bottom: 35px;
 	padding: 30px 40px;
 }

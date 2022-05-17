@@ -90,6 +90,11 @@
 					"color": "#547FEE"
 				},
 				{
+					"name": "Dark Purple",
+					"slug": "dark-purple",
+					"color": "#200230"
+				},
+				{
 					"name": "Light Purple",
 					"slug": "light-purple",
 					"color": "#C087DE"
