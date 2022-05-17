@@ -1,0 +1,69 @@
+/* Media Queries
+---------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 800px) {
+
+	/* Navigation
+	--------------------------------------------- */
+
+	.wp-block-navigation .wp-block-navigation-item.is-style-fill a,
+	.wp-block-navigation .wp-block-navigation-item.is-style-outline a {
+		border: 1px solid var(--wp--preset--color--primary);
+		padding: 5px 15px;
+	}
+
+	.wp-block-navigation .wp-block-navigation-item.is-style-fill,
+	.wp-block-navigation .wp-block-navigation-item.is-style-outline a:focus,
+	.wp-block-navigation .wp-block-navigation-item.is-style-outline a:hover {
+		background-color: var(--wp--preset--color--primary);
+		color: var(--wp--preset--color--secondary);
+	}
+
+	.wp-block-navigation .wp-block-navigation-item.is-style-outline a,
+	.wp-block-navigation .wp-block-navigation-item.is-style-fill a:focus,
+	.wp-block-navigation .wp-block-navigation-item.is-style-fill a:hover {
+		background-color: var(--wp--preset--color--secondary);
+		color: var(--wp--preset--color--primary);
+	}
+
+	.wp-block-navigation .wp-block-navigation-item.is-style-fill-white a,
+	.wp-block-navigation .wp-block-navigation-item.is-style-outline-white a {
+		border: 1px solid var(--wp--preset--color--secondary);
+		padding: 5px 15px;
+	}
+
+	.wp-block-navigation .wp-block-navigation-item.is-style-fill-white,
+	.wp-block-navigation .wp-block-navigation-item.is-style-outline-white a:focus,
+	.wp-block-navigation .wp-block-navigation-item.is-style-outline-white a:hover {
+		background-color: var(--wp--preset--color--secondary);
+		color: var(--wp--preset--color--primary);
+	}
+
+	.wp-block-navigation .wp-block-navigation-item.is-style-outline-white a,
+	.wp-block-navigation .wp-block-navigation-item.is-style-fill-white a:focus,
+	.wp-block-navigation .wp-block-navigation-item.is-style-fill-white a:hover {
+		background-color: var(--wp--preset--color--primary);
+		color: var(--wp--preset--color--secondary);
+	}
+
+	/* Pullquote
+	--------------------------------------------- */
+	
+	.wp-block-pullquote.alignleft,
+	.wp-block-pullquote.alignright {
+		max-width: 300px;
+	}
+	
+	.wp-block-pullquote.alignleft {
+		float: left;
+		margin-left: -100px;
+		margin-right: 30px;
+	}
+	
+	.wp-block-pullquote.alignright {
+		float: right;
+		margin-left: 30px;
+		margin-right: -100px;
+	}
+
+}

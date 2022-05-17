@@ -1,0 +1,5 @@
+/* Groups
+--------------------------------------------- */
+.wp-block-group:where(.has-background) {
+	padding: 0;
+}

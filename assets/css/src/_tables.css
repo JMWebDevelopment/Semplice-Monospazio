@@ -1,0 +1,67 @@
+/* Table
+--------------------------------------------- */
+
+.wp-block-table.is-style-stripes {
+	border-bottom: none;
+}
+
+.wp-block-table table {
+	border-collapse: collapse;
+}
+
+.wp-block-table thead {
+	background-color: var(--wp--preset--color--secondary);
+}
+
+.wp-block-table thead th,
+.wp-block-table tfoot th,
+.wp-block-table tfoot td {
+	color: var(--wp--preset--color--primary);
+	font-weight: var(--wp--custom--font-weight--bold);
+	font-family: var(--wp--preset--font-family--ubuntu-mono);
+	text-align: center;
+}
+
+.wp-block-table tfoot {
+	background-color: var(--wp--preset--color--secondary);
+}
+
+.wp-block-table thead td,
+.wp-block-table thead th,
+.wp-block-table thead tr,
+.wp-block-table.is-style-stripes thead td,
+.wp-block-table.is-style-stripes thead th,
+.wp-block-table.is-style-stripes thead tr {
+	border: 1px solid var(--wp--preset--color--primary);
+}
+
+.wp-block-table tbody td,
+.wp-block-table tbody th,
+.wp-block-table tbody tr,
+.wp-block-table.is-style-stripes tbody td,
+.wp-block-table.is-style-stripes tbody th,
+.wp-block-table.is-style-stripes tbody tr {
+	border: 1px solid var(--wp--preset--color--primary);
+}
+
+.wp-block-table tfoot td,
+.wp-block-table tfoot th,
+.wp-block-table tfoot tr,
+.wp-block-table.is-style-stripes tfoot td,
+.wp-block-table.is-style-stripes tfoot th,
+.wp-block-table.is-style-stripes tfoot tr {
+	border: 1px solid var(--wp--preset--color--primary);
+}
+
+.wp-block-table th {
+	font-weight: var(--wp--custom--font-weight--bold);
+}
+
+.wp-block-table td,
+.wp-block-table th {
+	padding: 5px;
+}
+
+.wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+	background-color: var(--wp--preset--color--secondary);
+}
