@@ -33,8 +33,7 @@ if ( ! function_exists( 'jm_web_dev_fse_starter_theme_setup' ) ) {
 		// Enqueue editor styles and fonts.
 		add_editor_style(
 			array(
-				'./assets/css/editor-styles.min.css',
-				jm_web_dev_fse_starter_theme_fonts_url(),
+				'./assets/css/editor-styles.min.css'
 			)
 		);
 
@@ -51,32 +50,8 @@ add_action( 'after_setup_theme', 'jm_web_dev_fse_starter_theme_setup' );
 add_action( 'wp_enqueue_scripts', 'jm_web_dev_fse_starter_theme_enqueue_style_sheet' );
 function jm_web_dev_fse_starter_theme_enqueue_style_sheet() {
 
-	wp_enqueue_style( 'jm-web-dev-fse-starter-theme', get_template_directory_uri() . '/assets/css/styles.min.css', array(), wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style( 'jm-web-dev-fse-starter-theme', get_template_directory_uri() . '/assets/css/global.min.css', array(), wp_get_theme()->get( 'Version' ) );
 
-}
-
-// Enqueue fonts.
-add_action( 'wp_enqueue_scripts', 'jm_web_dev_fse_starter_theme_enqueue_fonts' );
-function jm_web_dev_fse_starter_theme_enqueue_fonts() {
-
-	wp_enqueue_style( 'jm-web-dev-fse-starter-theme-fonts', jm_web_dev_fse_starter_theme_fonts_url(), array(), null );
-
-}
-
-// Define fonts.
-function jm_web_dev_fse_starter_theme_fonts_url() {
-
-	// Allow child themes to disable to the default JM Web Development FSE Starter Theme fonts.
-	$dequeue_fonts = apply_filters( 'jm_web_dev_fse_starter_theme_dequeue_fonts', false );
-
-	if ( $dequeue_fonts ) {
-		return '';
-	}
-
-	$fonts = [];
-
-	// Make a single request for all Google Fonts.
-	return esc_url_raw( 'https://fonts.googleapis.com/css2?' . implode( '&', array_unique( $fonts ) ) . '&display=swap' );
 }
 
 function jm_web_dev_fse_starter_theme_search_title() {

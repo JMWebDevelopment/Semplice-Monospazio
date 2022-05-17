@@ -13,6 +13,7 @@
 .wp-block-cover h6:not(.has-text-color),
 .wp-block-cover p:not(.has-text-color) {
 	color: var(--wp--preset--color--white) !important;
+	font-weight: var(--wp--custom--font-weight--bold);
 }
 
 .wp-block-cover .wp-block-cover-text {
