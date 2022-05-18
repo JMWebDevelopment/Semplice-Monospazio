@@ -1,0 +1,6 @@
+.widget {
+
+    & .wp-block-separator {
+        margin-bottom: 1rem;
+    }
+}

@@ -611,12 +611,7 @@
 	],
 	"customTemplates": [
 		{
-			"name": "no-title-template",
-			"title": "No title",
-			"postTypes": [ "post","page" ]
-		},
-		{
-			"name": "sidebar-page-template",
+			"name": "page-sidebar",
 			"title": "Page with sidebar",
 			"postTypes": [ "page" ]
 		},
