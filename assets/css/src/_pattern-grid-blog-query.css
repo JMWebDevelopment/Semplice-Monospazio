@@ -1,0 +1,30 @@
+.blog-query-grid {
+
+	& .post {
+		display: flex;
+
+		& .grid-blog-post {
+			display: flex;
+			flex-direction: column;
+			flex-grow: 1;
+
+			& .post-info-lower {
+				display: flex;
+				flex-direction: column;
+				margin-block-start: 0;
+				flex-grow: 1;
+
+				& .wp-block-read-more {
+					margin-top: auto;
+					width: 100%;
+					text-align: center;
+
+					&:focus,
+					&:hover {
+						filter: brightness(80%);
+					}
+				}
+			}
+		}
+	}
+}

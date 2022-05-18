@@ -110,8 +110,12 @@ function jm_web_dev_fse_starter_theme_register_block_patterns() {
 			'label'         => __( 'Header', 'jm-web-dev-fse-starter-theme' ),
 			'categoryTypes' => array( 'jm-web-dev-fse-starter-theme' ),
 		),
+		'jm-web-dev-fse-starter-theme-grid-query'  => array(
+			'label'         => __( 'Grid Queries', 'jm-web-dev-fse-starter-theme' ),
+			'categoryTypes' => array( 'jm-web-dev-fse-starter-theme' ),
+		),
 		'jm-web-dev-fse-starter-theme-list-query'  => array(
-			'label'         => __( 'List Querys', 'jm-web-dev-fse-starter-theme' ),
+			'label'         => __( 'List Queries', 'jm-web-dev-fse-starter-theme' ),
 			'categoryTypes' => array( 'jm-web-dev-fse-starter-theme' ),
 		),
 		'jm-web-dev-fse-starter-theme-search'  => array(
