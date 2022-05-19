@@ -612,12 +612,12 @@
 	"customTemplates": [
 		{
 			"name": "page-content-sidebar",
-			"title": "Page with sidebar",
+			"title": "Page with right sidebar",
 			"postTypes": [ "page" ]
 		},
 		{
-			"name": "sidebar-post-template",
-			"title": "Post with sidebar",
+			"name": "post-content-sidebar",
+			"title": "Post with right sidebar",
 			"postTypes": [ "post" ]
 		}
 	]
