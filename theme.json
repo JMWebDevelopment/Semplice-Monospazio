@@ -611,7 +611,7 @@
 	],
 	"customTemplates": [
 		{
-			"name": "page-sidebar",
+			"name": "page-content-sidebar",
 			"title": "Page with sidebar",
 			"postTypes": [ "page" ]
 		},
