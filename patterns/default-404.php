@@ -7,11 +7,14 @@
  */
 ?>
 
-<!-- wp:heading {"className":"is-style-jm-web-development-fse-starter-theme-text-shadow","textAlign":"center","fontSize":"x-large"} -->
-<h2 class="has-text-align-center has-x-large-font-size is-style-jm-web-development-fse-starter-theme-text-shadow"><?php esc_html_e( 'Page not found', 'jm-web-dev-fse-starter-theme' ); ?></h2>
+<!-- wp:heading {"className":"is-style-jm-web-development-fse-starter-theme-text-shadow","textAlign":"center","fontSize":"max-50"} -->
+<h1 class="has-text-align-center has-max-50-font-size is-style-jm-web-development-fse-starter-theme-text-shadow"><?php esc_html_e( 'Page not found', 'jm-web-dev-fse-starter-theme' ); ?></h1>
 <!-- /wp:heading -->
-<!-- wp:paragraph --><p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try a search?', 'jm-web-dev-fse-starter-theme' ); ?></p><!-- /wp:paragraph -->
-<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search"} /-->
+<!-- wp:separator {"align":"center","className":"is-style-wide"} -->
+<hr class="wp-block-separator aligncenter has-alpha-channel-opacity is-style-wide"/>
+<!-- /wp:separator -->
+<!-- wp:paragraph --><p><?php esc_html_e( 'The page that you are looking for isn\'t here. But that\'s okay. You can use the search form below to find what you\'re looking for or use the links to navigate to a new page.', 'jm-web-dev-fse-starter-theme' ); ?></p><!-- /wp:paragraph -->
+<!-- wp:search {"label":"Search","showLabel":true,"buttonText":"Search"} /-->
 <!-- wp:spacer {"height":40} -->
 <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
@@ -20,6 +23,20 @@
 <!-- wp:heading {"textAlign":"left"} -->
 <h2 class="has-text-align-left"><?php esc_html_e( 'Latest posts', 'jm-web-dev-fse-starter-theme' ); ?></h2>
 <!-- /wp:heading -->
-<!-- wp:latest-posts {"postsToShow":3,"displayAuthor":true,"displayPostDate":true,"displayFeaturedImage":true,"featuredImageAlign":"left"} /-->
+<!-- wp:latest-posts {"postsToShow":10} /-->
+<!-- wp:spacer {"height":40} -->
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+<!-- wp:heading {"textAlign":"left"} -->
+<h2 class="has-text-align-left"><?php esc_html_e( 'Pages', 'jm-web-dev-fse-starter-theme' ); ?></h2>
+<!-- /wp:heading -->
+<!-- wp:page-list /-->
+<!-- wp:spacer {"height":40} -->
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+<!-- wp:heading {"textAlign":"left"} -->
+<h2 class="has-text-align-left"><?php esc_html_e( 'Categories', 'jm-web-dev-fse-starter-theme' ); ?></h2>
+<!-- /wp:heading -->
+<!-- wp:categories {"showHierarchy":true} /-->
 </div>
 <!-- /wp:group -->
