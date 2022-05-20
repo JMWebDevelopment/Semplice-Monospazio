@@ -25,6 +25,11 @@
 					"color": "#efefef"
 				},
 				{
+					"name": "Tertiary",
+					"slug": "tertiary",
+					"color": "#000"
+				},
+				{
 					"name": "Off Black",
 					"slug": "off-black",
 					"color": "#262626"

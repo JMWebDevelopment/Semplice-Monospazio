@@ -5,9 +5,10 @@ input[type="button"],
 input[type="submit"],
 .wp-block-button__link,
 .wp-block-post-comments input[type="submit"],
-.wp-block-search__button {
-	background-color: var(--wp--preset--color--primary);
-	border: 1px solid var(--wp--preset--color--primary);
+.wp-block-search__button,
+.wp-block-read-more {
+	background-color: var(--wp--preset--color--tertiary);
+	border: 1px solid var(--wp--preset--color--tertiary);
 	border-radius: 0;
 	color: var(--wp--preset--color--secondary);
 	cursor: pointer;
@@ -19,11 +20,12 @@ input[type="submit"],
 	white-space: normal;
 	width: auto;
 	transition: all linear 500ms;
+	display: inline-block;
 
 	&:hover,
 	&:focus {
 		background-color: var(--wp--preset--color--secondary);
-		color: var(--wp--preset--color--primary);
+		color: var(--wp--preset--color--tertiary);
 		text-decoration: none;
 	}
 
@@ -31,8 +33,9 @@ input[type="submit"],
 
 		&:focus,
 		&:hover {
-			color: var(--wp--preset--color--secondary);
-			filter: brightness(110%);
+			background-color: var(--wp--preset--color--secondary) !important;
+			color: var(--wp--preset--color--tertiary) !important;
+			text-decoration: none;
 		}
 
 		&.has-black-background-color {
@@ -236,11 +239,12 @@ input[type="submit"],
 	& input[type="submit"],
 	& .wp-block-button__link,
 	& .wp-block-post-comments input[type="submit"],
-	& .wp-block-search__button {
+	& .wp-block-search__button,
+	& .wp-block-read-more {
 		background-color: transparent;
-		border: 1px solid var(--wp--preset--color--primary);
+		border: 1px solid var(--wp--preset--color--tertiary);
 		border-radius: 0;
-		color: var(--wp--preset--color--primary);
+		color: var(--wp--preset--color--tertiary);
 		cursor: pointer;
 		font-family: var(--wp--preset--font-family--ubuntu-monospace);
 		font-size: var(--wp--preset--font-size--regular);
@@ -253,7 +257,7 @@ input[type="submit"],
 
 		&:hover,
 		&:focus {
-			background-color: var(--wp--preset--color--primary);
+			background-color: var(--wp--preset--color--tertiary);
 			color: var(--wp--preset--color--secondary);
 			text-decoration: none;
 		}
@@ -262,7 +266,7 @@ input[type="submit"],
 
 			&:focus,
 			&:hover {
-				color: var(--wp--preset--color--primary);
+				color: var(--wp--preset--color--tertiary);
 				filter: brightness(110%);
 			}
 
