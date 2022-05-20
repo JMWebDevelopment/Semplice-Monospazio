@@ -6,6 +6,6 @@
  * Viewport Width: 1280
  */
 ?>
-<!-- wp:heading {"className":"is-style-jm-web-development-fse-starter-theme-text-shadow","fontSize":"x-large"} -->
-<h2 class="is-style-jm-web-development-fse-starter-theme-text-shadow has-x-large-font-size"><?php echo jm_web_dev_fse_starter_theme_search_title(); ?>'</h2>
+<!-- wp:heading {"className":"is-style-jm-web-development-fse-starter-theme-text-shadow","fontSize":"max-50"} -->
+<h1 class="is-style-jm-web-development-fse-starter-theme-text-shadow max-50"><?php echo jm_web_dev_fse_starter_theme_search_title(); ?></h1>
 <!-- /wp:heading -->

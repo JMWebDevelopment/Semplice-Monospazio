@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"className":"blog-query-grid green-backgrounds"} -->
-<div class="wp-block-group blog-query-grid green-backgrounds"><!-- wp:query {"queryId":5,"query":{"perPage":"12","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false},"displayLayout":{"type":"flex","columns":3}} -->
+<div class="wp-block-group blog-query-grid green-backgrounds"><!-- wp:query {"queryId":5,"query":{"perPage":"12","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":true},"displayLayout":{"type":"flex","columns":3}} -->
 <div class="wp-block-query"><!-- wp:post-template -->
 <!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"spacing":{"blockGap":"10px"}},"backgroundColor":"dark-green","textColor":"white","className":"grid-blog-post"} -->
 <div class="wp-block-group grid-blog-post has-white-color has-dark-green-background-color has-text-color has-background has-link-color"><!-- wp:post-featured-image /-->
