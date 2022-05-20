@@ -42,3 +42,11 @@
 .wp-block-site-title a {
 	text-decoration: none;
 }
+
+.site-sidebar {
+	padding: 0 10px;
+
+	& .widget {
+		margin-bottom: 2rem;
+	}
+}
