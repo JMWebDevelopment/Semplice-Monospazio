@@ -38,7 +38,7 @@ The theme also comes with a number of block patterns you can use on your website
 By default Semplice Monospazio comes with a single column layout. However, you can adjust this to have a right sidebar for a specific post or page, or add in universally for all pages and posts and various templates, like the archive or category templates.
 
 ## Support
-If you have a question, need to report a bug to be fixed or have a feature request for a future version,fill out the form on the theme page (http://jacobmartella.com/nuovo-wordpress-theme).
+If you have a question, need to report a bug to be fixed or have a feature request for a future version,fill out the form on the theme page (https://jacobmartella.com/downloads/semplice-monospazio/).
 
 ## Changelog
 [View Changelog](CHANGELOG.md)

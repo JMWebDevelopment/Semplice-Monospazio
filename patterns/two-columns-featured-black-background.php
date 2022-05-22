@@ -27,7 +27,7 @@
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"id":2031,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://wordpressdev.dev.cc/wp-content/uploads/2022/01/mansfield-railroad-1024x682.jpg" alt="" class="wp-image-2031"/></figure>
+<figure class="wp-block-image size-large"><img src="https://jacobmartella.com/wp-content/uploads/2020/12/mansfield-railroad.jpg" alt="" class="wp-image-2031"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
