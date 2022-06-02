@@ -41,6 +41,11 @@ By default Semplice Monospazio comes with a single column layout. However, you c
 If you have a question, need to report a bug to be fixed or have a feature request for a future version, email me at jacob.martella@att.net or fill out the form on the theme page (https://jacobmartella.com/downloads/semplice-monospazio/).
 
 == Changelog ==
+= 1.0.1 =
+- Added an updated screenshot for the theme.
+- Moved the default image for the columns block pattern into the theme itself.
+- Fixed an issue with :focus styling for accessibility.
+
 = 1.0 =
 - Initial release to the WordPress theme directory.
 
