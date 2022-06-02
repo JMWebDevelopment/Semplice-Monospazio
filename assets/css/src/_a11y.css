@@ -3,5 +3,5 @@
 
 :focus {
 	color: var(--wp--preset--color--primary);
-	outline: none;
+	text-decoration-style: dashed;
 }
