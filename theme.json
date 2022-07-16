@@ -177,7 +177,7 @@
 			"dropCap": false,
 			"fontFamilies": [
 				{
-					"fontFamily": "\"Ubuntu Mono\", serif",
+					"fontFamily": "\"Ubuntu Mono\", monospace",
 					"name": "Ubuntu Mono",
 					"slug": "ubuntu-mono",
 					"fontFace": [
