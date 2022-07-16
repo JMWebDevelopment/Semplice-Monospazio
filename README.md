@@ -3,7 +3,7 @@ Contributors: Jacob Martella
 Tags: one-column, two-column, custom-colors, custom-menu, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
 Requires at least: 6.0
 Tested up to: 6.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires PHP: 7.0
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -52,7 +52,7 @@ http://www.gnu.org/licenses/gpl.html
 
 ### Photo License
 Except where otherwise noted, all photos in the screenshot are also licensed under the GNU General Public License. Copyright 2022 Jacob Martella
-Mansfield-bridge.jpg is licensed under CC0 license.
+Mansfield-bridge.jpg is licensed under CC0 license. - https://wordpress.org/photos/photo/5256237aac/
 
 ### Scripts License
 All of the scripts used in this theme are licensed under the GNU General Public License (http://www.gnu.org/licenses/gpl.html).
