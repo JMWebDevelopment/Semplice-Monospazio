@@ -2,8 +2,8 @@
 Contributors: Jacob Martella
 Tags: one-column, two-column, custom-colors, custom-menu, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
 Requires at least: 6.0
-Tested up to: 6.0
-Stable tag: 1.0.2
+Tested up to: 6.0.1
+Stable tag: 1.0.3
 Requires PHP: 7.0
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
