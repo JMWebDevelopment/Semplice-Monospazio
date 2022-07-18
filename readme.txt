@@ -3,7 +3,7 @@ Contributors: Jacob Martella
 Tags: one-column, two-columns, custom-colors, custom-menu, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
 Requires at least: 6.0
 Tested up to: 6.0.1
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 Requires PHP: 7.0
 License: GNU General Public License v3.0 (or later)
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -41,6 +41,9 @@ By default Semplice Monospazio comes with a single column layout. However, you c
 If you have a question, need to report a bug to be fixed or have a feature request for a future version, email me at jacob.martella@att.net or fill out the form on the theme page (https://jacobmartella.com/downloads/semplice-monospazio/).
 
 == Changelog ==
+= 1.0.4 =
+- Fixed layout issues for the content-sidebar layout.
+
 = 1.0.3 =
 - Fixed the spacing between blocks to 30px and upped the body line-height to 1.5.
 - Added in monospace as the fallback font in case Ubuntu Mono doesn't load.
