@@ -7,9 +7,9 @@
  */
 ?>
 
-<!-- wp:group {"align":"wide","className":"content-sidebar-layout","layout":{"inherit":true}} -->
-<div class="wp-block-group alignwide content-sidebar-layout"><!-- wp:columns {"align":"wide"} -->
-<div class="wp-block-columns alignwide"><!-- wp:column {"width":"66.66%"} -->
+<!-- wp:group {"align":"wide","layout":{"inherit":true}} -->
+<div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":null,"align":"wide","className":"content-sidebar-layout"} -->
+<div class="wp-block-columns alignwide content-sidebar-layout"><!-- wp:column {"width":"66.66%"} -->
 <div class="wp-block-column" style="flex-basis:66.66%">
 <!-- wp:heading {"className":"is-style-jm-web-development-fse-starter-theme-text-shadow","textAlign":"center","fontSize":"max-50"} -->
 <h1 class="has-text-align-center has-max-50-font-size is-style-jm-web-development-fse-starter-theme-text-shadow"><?php esc_html_e( 'Page not found', 'jm-web-dev-fse-starter-theme' ); ?></h1>
