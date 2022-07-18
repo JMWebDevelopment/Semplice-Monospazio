@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.4
+- Fixed layout issues for the content-sidebar layout.
+
 ## 1.0.3
 - Fixed the spacing between blocks to 30px and upped the body line-height to 1.5.
 - Added in monospace as the fallback font in case Ubuntu Mono doesn't load.
