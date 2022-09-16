@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group {"tagName":"footer","align":"full","style":{"spacing":{"padding":{"top":"50px","right":"15px","bottom":"50px","left":"15px"}}},"className":"site-footer-pattern","layout":{"inherit":true}} -->
+<!-- wp:group {"tagName":"footer","align":"full","style":{"spacing":{"padding":{"top":"50px","right":"15px","bottom":"50px","left":"15px"},"blockGap":"10px"}},"className":"site-footer-pattern","layout":{"inherit":true}} -->
 <footer class="wp-block-group alignfull site-footer-pattern" style="padding-top:50px;padding-right:15px;padding-bottom:50px;padding-left:15px"><!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center">&copy; <?php echo esc_html__( 'Copyright', 'jm-web-dev-fse-starter-theme' ) . ' ' . esc_html( date( 'Y' ) ); ?></p>
 <!-- /wp:paragraph -->
