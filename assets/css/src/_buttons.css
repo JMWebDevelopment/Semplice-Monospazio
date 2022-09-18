@@ -38,6 +38,30 @@ input[type="submit"],
 			text-decoration: none;
 		}
 
+		&.has-secondary-background-color {
+			background-color: var(--wp--preset--color--secondary);
+			border: 1px solid var(--wp--preset--color--secondary);
+			color: var(--wp--preset--color--primary);
+
+			&:hover,
+			&:focus {
+				background-color: var(--wp--preset--color--primary) !important;
+				color: var(--wp--preset--color--secondary) !important;
+			}
+		}
+
+		&.has-primary-background-color {
+			background-color: var(--wp--preset--color--primary);
+			border: 1px solid var(--wp--preset--color--primary);
+			color: var(--wp--preset--color--secondary);
+
+			&:hover,
+			&:focus {
+				background-color: var(--wp--preset--color--secondary) !important;
+				color: var(--wp--preset--color--primary) !important;
+			}
+		}
+
 		&.has-black-background-color {
 			background-color: var(--wp--preset--color--black);
 			border: 1px solid var(--wp--preset--color--black);
