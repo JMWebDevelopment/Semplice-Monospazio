@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1
+- Fixed the line-height for body and heading text.
+- Fixed spacing between blocks inside of the block patterns.
+- Fixed the hover state on buttons that have a secondary background.
+- Fixed the layout of the post navigation.
+
 ## 1.0.4
 - Fixed layout issues for the content-sidebar layout.
 
