@@ -9,7 +9,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"3rem","right":"15px","bottom":"3rem","left":"15px"}}},"className":"callout-section default-color","layout":{"inherit":true}} -->
 <div class="wp-block-group callout-section default-color" style="padding-top:3rem;padding-right:15px;padding-bottom:3rem;padding-left:15px"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"width":"66.66%"} -->
+<div class="wp-block-columns"><!-- wp:column {"width":"66.66%","style":{"spacing":{"blockGap":"10px"}}} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:heading -->
 <h2>Callout Heading</h2>
 <!-- /wp:heading -->

@@ -63,9 +63,5 @@
 </div>
 </div>
 <!-- /wp:column -->
-
-<!-- wp:column {"verticalAlignment":"top","width":"33.33%"} -->
-<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:33.33%"><!-- wp:template-part {"slug":"sidebar","theme":"semplice-monospazio-dev","className":"site-sidebar"} /--></div>
-<!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group -->

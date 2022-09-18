@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"className":"widget"} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"className":"widget"} -->
 <div class="wp-block-group widget"><!-- wp:heading -->
 <h2><?php esc_html_e( 'Widget Title', 'jm-web-dev-fse-starter-theme' ); ?></h2>
 <!-- /wp:heading -->
